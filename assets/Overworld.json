@@ -1,0 +1,14 @@
+{ "columns":19,
+ "image":"..\/gamePrototype1\/assets\/Overworld.png",
+ "imageheight":576,
+ "imagewidth":640,
+ "margin":1,
+ "name":"test",
+ "spacing":1,
+ "tilecount":323,
+ "tiledversion":"1.10.1",
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset",
+ "version":"1.10"
+}

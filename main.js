@@ -9,6 +9,6 @@ let config = {
             debugShowVelocity: false
     }
 },
-scene: [load, scene1],
+scene: [load, scene1, scene2],
 title: "???",
 };
