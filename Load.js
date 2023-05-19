@@ -5,6 +5,7 @@ class load extends Phaser.Scene {
     preload ()
     {
         this.load.path = 'assets/';
+        this.load.image('tiles', 'Overworld.png');
 
     }
     create()
