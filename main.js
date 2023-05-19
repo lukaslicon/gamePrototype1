@@ -5,11 +5,10 @@ let config = {
     physics:{
         default: 'arcade',
         arcade: {
-            debug: false,
+            debug: true,
             debugShowVelocity: false
     }
 },
-//scene: [load, intro, game1, summary1, game2, summary2, game3, summary3, outro],
-scene: [load, intro, game1, summary1, game2, summary2,  game3, summary3, outro],
+scene: [],
 title: "Physics Based Games",
 };
