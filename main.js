@@ -10,6 +10,6 @@ let config = {
             debugShowVelocity: false
     }
 },
-scene: [Load, Mini, Scene2],
+scene: [Mini],
 title: "???",
 };

@@ -8,6 +8,7 @@ class Load extends Phaser.Scene {
         
         this.load.tilemapTiledJSON('map', 'map.json');
         this.load.image('tileset', tilesetImage);
+        this.load.image('coin', 'coin.png');
 
         this.load.image('tiles', 'Overworld.png');
         this.load.tilemapTiledJSON('OverworldJson', 'Overworld.json' );
@@ -15,7 +16,7 @@ class Load extends Phaser.Scene {
     }
     create()
     {
-        this.scene.start('scene2');
+        this.scene.start('mini');
     }
 
 }

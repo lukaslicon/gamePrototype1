@@ -2,6 +2,9 @@ class Mini extends Phaser.Scene {
     constructor() {
         super('mini');
     }
+    preload(){
+        this.load.image('coin', "assets/coin.png");
+    }
     path1(obj){
         let target1 = new Phaser.Math.Vector2();
             target1.x = 1532
@@ -31,7 +34,7 @@ class Mini extends Phaser.Scene {
             .setScale(0.1)
         //this.path1(this.coin1);
     }
-    update(){
+   /* update(){
         if (this.coin1.body.speed > 0)
           {
 
@@ -39,5 +42,5 @@ class Mini extends Phaser.Scene {
                 this.source.body.reset(this.target.x, this.target.y);
             }
         }
-    }
+    }*/
 }
