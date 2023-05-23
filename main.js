@@ -2,6 +2,7 @@ let config = {
     type: Phaser.AUTO,
     width: 1920,
     height: 1080,
+    backgroundColor: 0x000000,
     physics:{
         default: 'arcade',
         arcade: {
@@ -9,6 +10,6 @@ let config = {
             debugShowVelocity: false
     }
 },
-scene: [load, scene1, scene2],
+scene: [Load, Mini, Scene2],
 title: "???",
 };
