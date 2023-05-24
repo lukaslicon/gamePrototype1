@@ -1,5 +1,7 @@
 # gamePrototype1
 
+Akhror Rakhmatov
+
 Core requirements:
 
 
