@@ -2,6 +2,8 @@
 
 Akhror Rakhmatov
 
+Lukas Licon
+
 Core requirements:
 
 
